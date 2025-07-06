@@ -1,0 +1,7 @@
+name = "ScriptsAndPlots"
+uuid = "0b937201-c82c-41bf-978b-1eeae248c836"
+authors = ["Eben60"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10"
