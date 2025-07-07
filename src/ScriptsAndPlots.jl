@@ -1,5 +1,6 @@
 module ScriptsAndPlots
+using Bonito
 
-# Write your package code here.
+include("custom_dropdown.jl")
 
 end
