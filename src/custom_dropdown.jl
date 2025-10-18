@@ -1,5 +1,8 @@
 import Bonito: jsrender
 using Bonito: BUTTON_STYLE
+using Bonito
+using Observables
+# scrip not working
 
 struct ColorDropdown
     options::Observable{Vector{Any}}
