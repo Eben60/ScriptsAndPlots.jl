@@ -1,7 +1,6 @@
 using Bonito
 using Observables
 using Hyperscript
-Bonito.browser_display()
 
 app = App() do session::Session
     editor = CodeEditor("julia"; initial_source="""1 + 1""")
@@ -10,7 +9,6 @@ app = App() do session::Session
     on(eval_button) do click
         src = editor.onchange[]
         result = eval(Bonito.parseall(src))
-        println(result, typeof(result))
         output[] = DOM.div(result)
     end
     return DOM.div(editor, eval_button, output)
