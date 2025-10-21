@@ -1,16 +1,18 @@
 name = "ScriptsAndPlots"
 uuid = "0b937201-c82c-41bf-978b-1eeae248c836"
-authors = ["Eben60"]
 version = "0.0.1"
+authors = ["Eben60"]
 
 [deps]
 Bonito = "824d6782-a2ef-11e9-3a09-e5662e0c26f8"
+Electron = "a1bb12fb-d4d1-54b4-b10a-ee7951ef7ad3"
 Hyperscript = "47d2ed2b-36de-50cf-bf87-49c2cf4b8b91"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 
 [compat]
 Bonito = "4.0.9"
+Electron = "6.0.0"
 Hyperscript = "0.0.5"
 Markdown = "1.11.0"
 Observables = "0.5.5"

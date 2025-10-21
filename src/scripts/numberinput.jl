@@ -1,4 +1,7 @@
+using ScriptsAndPlots
+
 using Bonito, Observables
+
 
 app = App() do
     style = Styles(
@@ -13,5 +16,7 @@ app = App() do
     return numberinput
 end
 
-display(app)
+# display(app)
+
+Ele.serve_app(app)
 # close(app)
