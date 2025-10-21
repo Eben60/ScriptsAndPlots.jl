@@ -10,7 +10,7 @@ app = App() do
         CSS(":focus", "box-shadow" => "rgba(0, 0, 0, 0.5) 0px 0px 5px"),
     )
     numberinput = NumberInput(0.0; style=style)
-    on(numberinput.value) do value::Float64
+    on(numberinput.value) do value # ::Float64
         @info value
     end
     return numberinput
