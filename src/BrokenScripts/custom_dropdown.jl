@@ -2,7 +2,7 @@ import Bonito: jsrender
 using Bonito: BUTTON_STYLE
 using Bonito
 using Observables
-# scrip not working
+# script not working - app and display not defined
 
 struct ColorDropdown
     options::Observable{Vector{Any}}

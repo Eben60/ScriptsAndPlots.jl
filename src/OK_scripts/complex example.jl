@@ -1,4 +1,5 @@
 import Bonito.TailwindDashboard as D
+using Bonito
 
 colorsin = App() do session
     colors = ["black", "gray", "silver", "maroon", "red", "olive", "yellow", "green", "lime", "teal", "aqua", "navy", "blue", "purple", "fuchsia"]
